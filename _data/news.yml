@@ -1,0 +1,184 @@
+- date: 12/2023
+  headline: "New Article on Scientific Report Journal"
+  summary: 'Our article <a href="https://www.nature.com/articles/s41598-023-49571-7">"A mirror therapy system using virtual reality and an actuated exoskeleton for the recovery of hand motor impairments: a study of acceptability, usability, and embodiment"</a> 
+  has been published on Scientific Report journal.'
+  content: '<p>Our article <a href="https://www.nature.com/articles/s41598-023-49571-7">"A mirror therapy system using virtual reality and an actuated exoskeleton for the recovery of hand motor impairments: a study of acceptability, usability, and embodiment"</a> 
+  has been published on Scientific Report journal.<br></p>
+  <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://youtu.be/znBTWJ_E1Bc" allowfullscreen></iframe>
+  </div><br>
+  '
+
+- date: 12/2023
+  headline: "New RA-L Article"
+  summary: 'Our article <a href="https://ieeexplore.ieee.org/document/10380668">"A Sim-to-Real Deep Learning-based Framework for Autonomous Nano-drone Racing"</a> 
+  has been published on the IEEE Robotics and Automation Letters (RA-L) journal.'
+  content: '<p>Our article <a href="https://ieeexplore.ieee.org/document/10380668">"A Sim-to-Real Deep Learning-based Framework for Autonomous Nano-drone Racing"</a> 
+  has been published on the IEEE Robotics and Automation Letters (RA-L) journal.<br></p>
+  <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=vHTAwUsj-nk" allowfullscreen></iframe>
+  </div><br>
+  '
+
+- date: 11/2023
+  headline: "\"Quality of Life\" Label!"
+  summary: 'Our project (REMiT) aiming at improving Mirror Therapy using VR and an Hand Exoskeleton has been awarded with the "Quality of Life" label 
+  from the <a href="https://dallemolle.ch/concours-2023-ceremonie-de-remise-des-prix/">Fondation Dalle Molle</a>.'
+  content: '<div class="row">
+  <div class="col-8"><p>
+  Our project "Remotely-assisted Enhanced Mirror Therapy (REMiT)" has been awarded with the "Quality of Life" label from the 
+  <a href="https://dallemolle.ch/concours-2023-ceremonie-de-remise-des-prix/">Fondation Dalle Molle</a>.
+  With the VRHEM project we developed a system leveraging VR technology and a hand exoskeleton (provided by <a href="https://emovocare.com">emovo</a>) to enahance traditional Mirror Therapy.<br>
+  With REMiT we build on top of this to unlock telemedicine features: we allow therapists to remotely connect with their patients and supervise the therapy session.
+  </p>
+  </div>
+  <div class="col-4"><p>
+  <a href="images/dalle_molle.jpg"><img src="images/dalle_molle.jpg" width="100%" /></a>
+  </p>
+  </div>
+  </div>
+  '
+
+
+- date: 11/2023
+  headline: 'New RAS Article'
+  summary: 'Our article <a href="https://www.sciencedirect.com/science/article/pii/S0921889023002075">"Self-Supervised Prediction of the Intention to Interact with a Service Robot"</a> 
+  has been published on the Robotics and Autonomous Systems (RAS) journal.'
+  content: '<p>Our article <a href="https://www.sciencedirect.com/science/article/pii/S0921889023002075">"Self-Supervised Prediction of the Intention to Interact with a Service Robot"</a> 
+  has been published on the Robotics and Autonomous Systems (RAS) journal.<br></p>
+  <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mdZDIsr5tcU?si=fGOjIB3kUkCA1SmP" allowfullscreen></iframe>
+  </div><br>
+  '
+
+- date: 11/2022
+  headline: 'Demo Deployed at Swiss Robotics Days 2022'
+  summary: 'Our pointing-based interaction demo has been succefully deployed during the Swiss Robotics Days 2022 in Luasanne.'
+  content: '<div class="row">
+  <div class="col-6"><p>
+  <a href="images/srd2022.jpeg"><img src="images/srd2022.jpeg" width="100%" /></a>
+  </p>
+  </div>
+  <div class="col-6"><p>We were pretty busy during the Swiss Robotics Days 2022. Hundreds of people visited our boot to try our demo. Its ease of use made it accessible 
+  and funny even for children :D <br>
+  Check our <a href="https://idsia-robotics.github.io/pointing/">research on pointing based interactions</a>!
+  </p></div>
+  </div>'
+
+- date: 09/2022
+  headline: 'Nanocopter AI Challenge at IMAV22'
+  summary: 'Our team won the 1st Nanocopter AI Challenge at IMAV22'
+  content: '<p>Our team won the 1st Nanocopter AI Challenge which took place at IMAV2022 in Delft.</p>
+  <div class="row">
+  <div class="col-8"><p>
+  <a href="images/imav_team.jpeg"><img src="images/imav_team.jpeg" width="89%"/></a>
+  </p>
+  </div>
+  <div class="col-4"><p>
+  <a href="images/imav_certificate.jpg"><img src="images/imav_certificate.jpg" width="100%"/></a>
+  </p>
+  </div>
+  </div>'
+
+- date: 06/2022
+  headline: 'Innosuisse grant for VRHEM'
+  summary: 'Our project titled "Virtual Reality and Hand Exoskeleton for Mirror Therapy: a Feasibility Study (VRHEM)" has been granted by 
+  <a href="https://www.aramis.admin.ch/Grunddaten/?ProjectID=51064&Sprache=en-US">Innosuisse - Swiss Innovation Agency</a>'
+  content: 'Our project titled "Virtual Reality and Hand Exoskeleton for Mirror Therapy: a Feasibility Study (VRHEM)" has been granted by 
+  <a href="https://www.aramis.admin.ch/Grunddaten/?ProjectID=51064&Sprache=en-US">Innosuisse - Swiss Innovation Agency</a>'
+
+- date: 06/2022
+  headline: 'Publication at CASE 2022'
+  summary: 'Our paper <a href="https://ieeexplore.ieee.org/document/9926448">"Selecting Objects on Conveyor Belts Using Pointing Gestures Sensed by a Wrist-worn Inertial Measurement Unit"</a> 
+  will be published at CASE 2022.'
+  content: '<p>Our paper <a href="https://ieeexplore.ieee.org/document/9926448">"Selecting Objects on Conveyor Belts Using Pointing Gestures Sensed by a Wrist-worn Inertial Measurement Unit"</a> 
+  will be published at the 2022 IEEE 18th International Conference on Automation Science and Engineering (CASE).<br></p>
+  <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fEnPEXPlVIM?si=lHzBq80DMtjIOXb7" allowfullscreen></iframe>
+  </div><br>
+  '
+
+- date: 05/2022
+  headline: "Publication at CIRP 2022"
+  summary: 'Our paper <a href="https://www.sciencedirect.com/science/article/pii/S221282712200395X">"Towards the integration of a pointing-based 
+  human-machine interface in an industrial control system compliant with the IEC 61499 standard"</a> 
+  will be published at Procedia CIRP 2022.'
+  content: '<p>Our paper <a href="https://www.sciencedirect.com/science/article/pii/S221282712200395X">Towards the integration of a pointing-based 
+  human-machine interface in an industrial control system compliant with the IEC 61499 standard"</a> 
+  will be published in the Proceedings of the 55th CIRP Conference on Manufacturing Systems 2022.<br></p>
+  '
+
+- date: 01/2022
+  headline: 'Publications at HRI 2022'
+  summary: 'Our works <a href="https://ieeexplore.ieee.org/abstract/document/9889380">"Interacting with a Conveyor Belt in Virtual Reality using Pointing Gestures"</a> 
+  and <a href="https://ieeexplore.ieee.org/document/9889486">"PointIt: A ROS Toolkit for Interacting with Co-located Robots using Pointing Gestures"</a> will be published at HRI2022.'
+  content: '<p>Our works <a href="https://ieeexplore.ieee.org/abstract/document/9889380">"Interacting with a Conveyor Belt in Virtual Reality using Pointing Gestures"</a> 
+  and <a href="https://ieeexplore.ieee.org/document/9889486">"PointIt: A ROS Toolkit for Interacting with Co-located Robots using Pointing Gestures"</a> (code <a href="https://github.com/Gabry993/pointing-user-interface-hri"> here</a>)
+  will be published at the 17th Annual ACM/IEEE International Conference on Human-Robot Interaction (HRI 2022).
+  <video width="100%" controls>
+  <source src="https://idsia-robotics.github.io/pointing/files/videos/guzzi2022demo.mp4" type="video/mp4">
+  </video>
+  </p>
+  '
+
+- date: 10/2021
+  headline: 'New PLR Article'
+  summary: 'Our article <a href="https://www.sciencedirect.com/science/article/pii/S0167865521001938">"Semantic segmentation on Swiss3DCities: A benchmark study on aerial 
+  photogrammetric 3D pointcloud dataset"</a> 
+  has been published on the Pattern Recognition Letters (PRL) journal.'
+  content: 'Our article <a href="https://www.sciencedirect.com/science/article/pii/S0167865521001938">"Semantic segmentation on Swiss3DCities: A benchmark study on aerial 
+  photogrammetric 3D pointcloud dataset"</a> 
+  has been published on the Pattern Recognition Letters (PRL) journal. This is the result of the collaboration we had with <a href="https://nomoko.world">Nomoko</a>.
+  Check my related <a href="https://github.com/idsia-robotics/RandLA-Net-pytorch">implementation of a 3D Point Cloud Segmentation model</a>.
+  '
+
+- date: 03/2021
+  headline: 'Publication at ICRA 2021'
+  summary: 'Our paper <a href="https://ieeexplore.ieee.org/abstract/document/9561387">"Pointing at Moving Robots: Detecting Events from Wrist IMU Data"</a> 
+  will be published at ICRA 2021.'
+  content: '<p>Our paper <a href="https://ieeexplore.ieee.org/abstract/document/9561387">"Pointing at Moving Robots: Detecting Events from Wrist IMU Data"</a> 
+  will be published at the 2021 IEEE International Conference on Robotics and Automation (ICRA).<br></p>
+  <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-Eroidxx9sY?si=MuZBG5ogLqvOBzMR" allowfullscreen></iframe>
+  </div><br>
+  '
+
+- date: 09/2019
+  headline: "NeuralRope#1 is Live"
+  summary: "<a href=\"https://www.rsi.ch/info/cultura-e-spettacoli/Il-tunnel-di-Besso-pensa--1169575.html\"> The art installation</a> 
+  featuring a neural network at the Besso's tunnel in Lugano is now open."
+  content: "<a href=\"https://www.rsi.ch/info/cultura-e-spettacoli/Il-tunnel-di-Besso-pensa--1169575.html\"> The art installation</a> 
+  featuring a neural network (implemented by my colleagues and me) running live at the Besso's tunnel in Lugano is now open.
+  <a href=\"images/neuralrope.jpeg\"><img src=\"images/neuralrope.jpeg\" width=\"100%\"/></a>"
+
+- date: 05/2019
+  headline: 'Publication at ICRA 2019'
+  summary: 'Our paper <a href="https://ieeexplore.ieee.org/abstract/document/8794399">"Proximity Human-Robot Interaction Using Pointing Gestures and a Wrist-mounted IMU"</a> 
+  will be published at ICRA 2019.'
+  content: '<p>Our paper <a href="https://ieeexplore.ieee.org/abstract/document/8794399">"Proximity Human-Robot Interaction Using Pointing Gestures and a Wrist-mounted IMU"</a> 
+  will be published at the 2019 International Conference on Robotics and Automation (ICRA).<br></p>
+  <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hyh_5A4RXZY?si=xuS6a3kDmr2P30ZZ" allowfullscreen></iframe>
+  </div><br>
+  '
+
+- date: 03/2019
+  headline: 'Best Video Award at HRI 2019'
+  summary: 'Our video <a href="https://ieeexplore.ieee.org/abstract/document/8673020">"Pointing Gestures for Proximity Interaction"</a> published at HRI 2019 got the Best Video Award!'
+  content: '<div class="row">
+  <div class="col-4"><p>
+  <a href="images/hri2019_award.jpg"><img src="images/hri2019_award.jpg" width="100%" /></a>
+  </p>
+  </div>
+  <div class="col-8"><p>
+  Our video <a href="https://ieeexplore.ieee.org/abstract/document/8673020">"Pointing Gestures for Proximity Interaction"</a> got the Best Video Award at 
+  the 14th ACM/IEEE International Conference on Human-Robot Interaction (HRI2019). You can find related research 
+  <a href="https://idsia-robotics.github.io/pointing/pointing-gestures/index.html">here</a>.
+  </p>
+  </div>
+  </div>
+  <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yafy-HZMk_U?si=zznAOIOe3zkrJgMj" allowfullscreen></iframe>
+  </div><br>
+  '
+

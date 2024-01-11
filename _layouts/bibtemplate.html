@@ -1,0 +1,110 @@
+---
+---
+
+
+<style>
+.btn{
+/*    margin-bottom:5px;*/
+    padding-top:0px;
+    padding-bottom:0px;
+/*    padding-left:15px;*/
+/*    padding-right:15px;*/
+    width:40px;
+}
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify">
+<!-- {{reference}}</div> -->
+<!-- https://www.w3schools.com/icons/fontawesome_icons_webapp.asp -->
+<!-- You can use the below to make your name bold -->
+{{reference | replace_first: 'Abbate, G.', '<b><u>Abbate, G.</u></b>'}}</div>
+<!-- {{reference | replace_first: 'Abbate, G.', '<b>Abbate, G.</b>' | replace_first: 'Abbate, G.', '<b>Abbate, G.</b>' }}</div> -->
+<!-- {{reference | replace_first: 'Abbate, G.', '<p style="font-weight: 100;">Abbate, G.</p>' | replace_first: 'Abbate, G.', '<p style="font-weight: 100;">Abbate, G.</p>' }}</div> -->
+
+{% assign bibtest = false %}
+{% if entry.file %}
+{% assign bibfile = "/papers/" | append: entry.file %}
+{% for file in site.static_files %}
+  {% if file.path contains bibfile %}
+   {% assign bibtest = true %}
+  {% endif %}
+{% endfor %}
+{% endif %}
+
+{% if bibtest %}
+<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank"><button class="btn btn-primary"><i class="fa fa-file"></i></button></a>
+{% endif %}
+
+{% if entry.doi %}
+{% if entry.type == 'unpublished' %}
+<a href="{{ entry.doi | prepend: 'https://arxiv.org/abs/' }}" target="_blank"><button class="btn btn-primary">ARXIV</button></a>
+{% else %}
+<a href="{{ entry.doi | prepend: 'http://doi.org/' }}" target="_blank"><button class="btn btn-primary"><i class="ai ai-doi"></i></button></a>
+{% endif %}
+{% endif %}
+
+{% if entry.video %}
+<a href="{{ entry.video }}" target="_blank"><button class="btn btn-primary"><i class="fa fa-video-camera"></i></button></a>
+{% endif %}
+
+{% if entry.info %}
+<a href="{{ entry.info }}" target="_blank"><button class="btn btn-primary"><i class="fa fa-code"></i></button></a>
+{% endif %}
+
+<!-- {% if entry.code %}
+<a href="{{ entry.info }}" target="_blank"><button class="btn btn-primary"><i class="fa fa-code"></i></button></a>
+{% endif %} -->
+
+{% if entry.award %}
+<a href="{{ site.url }}{{ site.baseurl }}/images/{{ entry.award }}" target="_blank"><button class="btn btn-primary"><i class="fa fa-trophy"></i></button></a>
+{% endif %}
+
+{% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'report' %}
+<button class="btn btn-primary"  onclick="toggleBibtex{{entry.key}}()"><i class="fa fa-quote-right"></i></button>
+{% endif %}
+
+{% if entry.abstract %}
+<button class="btn btn-primary"  onclick="toggleAbstract{{entry.key}}()"><i class="fa fa-info"></i></button>
+{% endif %}
+
+{% if entry.abstract %}
+<div id="a{{entry.key}}" style="display: none; background-color:whitesmoke; border-radius:5px; padding:5px; margin:0px;">
+<pre>{{ entry.bibtex | remove: "entry.abstract" }}</pre>
+</div>
+{% else %}
+<div id="a{{entry.key}}" style="display: none; background-color:whitesmoke; border-radius:5px; padding:5px; margin:0px;">
+<pre>{{ entry.bibtex }}</pre>
+</div>
+{% endif %}
+
+<div id="b{{entry.key}}" style="display: none; background-color:whitesmoke; border-radius:5px; padding:5px; margin:0px;">
+<pre>{{entry.abstract}}</pre>
+</div>
+
+<script>
+function toggleBibtex{{entry.key}}(parameter) {
+    var x= document.getElementById('a{{entry.key}}');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstract{{entry.key}}(parameter) {
+    var x= document.getElementById('b{{entry.key}}');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
