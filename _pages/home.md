@@ -24,7 +24,7 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 </div>
 <br/> -->
 
-### Hello there!
+### Hello there!<span style="color:white;font-size: 50%">General Kenobi</span>
 
 I'm Gabriele, currently Researcher and Software Engineer @ IDSIA.
 Here I'm trying to learn as much as possible while working on many different projects. Check my <a href="{{ site.url }}{{ site.baseurl }}/news">news list</a> to see what I've been up to :)

@@ -103,9 +103,18 @@
   abstract={We introduce an intuitive pointing-based interface to select objects moving on a system of conveyor belts. The interface has minimal sensing requirements, as the operator only needs to wear an Inertial Measurement Unit on the wrist (e.g., a smartwatch). LED strips provide the required visual feedback to precisely point to the objects and select them. We test the proposed approach in three environments of different complexity. Experiments compare our approach with a graphical interface where the user clicks on packages with a mouse; quantitative results show that our interface compares favorably, especially in difficult scenarios involving many packages moving fast.}
 }
 
-@unpublished{abbaterehabilitation,
-  title={Rehabilitation of Hand Motor Impairment Through Combined Virtual Reality and Wearable Robotics},
-  author={Abbate, Gabriele and Giusti, Alessandro and Randazzo, Luca and Paolillo, Antonio},
+@article{abbate2023mirror,
+author = {Abbate, Gabriele and Giusti, Alessandro and Randazzo, Luca and Paolillo, Antonio},
+year = {2023},
+month = {12},
+pages = {22881},
+title = {A mirror therapy system using virtual reality and an actuated exoskeleton for the recovery of hand motor impairments: a study of acceptability, usability, and embodiment},
+volume = {13},
+journal = {Scientific Reports},
+doi = {10.1038/s41598-023-49571-7},
+file={abbbate2023mirror.pdf},
+video={https://www.youtube.com/watch?v=znBTWJ_E1Bc},
+abstract={Hand motor impairments are one of the main causes of disabilities worldwide. Rehabilitation procedures like mirror therapy are given crucial importance. In the traditional setup, the patient moves the healthy hand in front of a mirror; the view of the mirrored motion tricks the brain into thinking that the impaired hand is moving as well, stimulating the recovery of the lost hand functionalities. We propose an innovative mirror therapy system that leverages and couples cutting-edge technologies. Virtual reality recreates an immersive and effective mirroring effect; a soft hand exoskeleton accompanies the virtual visual perception by physically inducing the mirrored motion to the real hand. Three working modes of our system have been tested with 21 healthy users. The system is ranked as acceptable by the system usability scale; it does not provoke adverse events or sickness in the users, according to the simulator sickness questionnaire; the three execution modes are also compared w.r.t. the sense of embodiment, evaluated through another customized questionnaire. The achieved results show the potential of our system as a clinical tool and reveal its social and economic impact.}
 }
 
 
@@ -121,3 +130,21 @@
   video={https://www.youtube.com/watch?v=mdZDIsr5tcU},
   abstract={A service robot can provide a smoother interaction experience if it has the ability to proactively detect whether a nearby user intends to interact, in order to adapt its behavior e.g. by explicitly showing that it is available to provide a service. In this work, we propose a learning-based approach to predict the probability that a human user will interact with a robot before the interaction actually begins; the approach is self-supervised because after each encounter with a human, the robot can automatically label it depending on whether it resulted in an interaction or not. We explore different classification approaches, using different sets of features considering the pose and the motion of the user. We validate and deploy the approach in three scenarios. The first collects 3442 natural sequences (both interacting and non-interacting) representing employees in an office break area: a real-world, challenging setting, where we consider a coffee machine in place of a service robot. The other two scenarios represent researchers interacting with service robots (200 and 72 sequences, respectively). Results show that, even in challenging real-world settings, our approach can learn without external supervision, and can achieve accurate classification (i.e. AUROC greater than 0.9) of the user’s intention to interact with an advance of more than 3 s before the interaction actually occurs.}
 }
+
+@article{lamberti2024drone,
+  author={Lamberti, Lorenzo and Cereda, Elia and Abbate, Gabriele and Bellone, Lorenzo and Morinigo, Victor Javier Kartsch and Barciś, Michał and Barciś, Agata and Giusti, Alessandro and Conti, Francesco and Palossi, Daniele},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={A Sim-to-Real Deep Learning-Based Framework for Autonomous Nano-Drone Racing}, 
+  year={2024},
+  volume={9},
+  number={2},
+  pages={1899-1906},
+  abstract={Autonomous drone racing competitions are a proxy to improve unmanned aerial vehicles' perception, planning, and control skills. The recent emergence of autonomous nano-sized drone racing imposes new challenges, as their $\sim$$\text{10} \,\text{c}\text{m}$ form factor heavily restricts the resources available onboard, including memory, computation, and sensors. This letter describes the methodology and technical implementation of the system winning the first autonomous nano-drone racing international competition: the “IMAV 2022 Nanocopter AI Challenge.” We developed a fully onboard deep learning approach for visual navigation trained only on simulation images to achieve this goal. Our approach includes a convolutional neural network for obstacle avoidance, a sim-to-real dataset collection procedure, and a navigation policy that we selected, characterized, and adapted through simulation and actual in-field experiments. Our system ranked $1\text{st}$ among six competing teams at the competition. In our best attempt, we scored $\text{115} \,\text{m}$ of traveled distance in the allotted 5-minute flight, never crashing while dodging static and dynamic obstacles. Sharing our knowledge with the research community, we aim to provide a solid groundwork to foster future development in this field.},
+  keywords={},
+  doi={10.1109/LRA.2024.3349814},
+  ISSN={2377-3766},
+  month={Feb},
+  file={lamberti2024drone},
+  video={https://www.youtube.com/watch?v=vHTAwUsj-nk}
+  }
+
