@@ -1,3 +1,14 @@
+- date: 10/2024
+  headline: 'Publication at IROS 2024'
+  summary: 'Our paper <a href="https://arxiv.org/abs/2410.03287">"A Service Robot in the Wild: Analysis of Users Intentions, Robot Behaviors, and Their Impact on the Interaction"</a> 
+  will be published at IROS 2024.'
+  content: '<p>Our paper <a href="https://arxiv.org/abs/2410.03287">"A Service Robot in the Wild: Analysis of Users Intentions, Robot Behaviors, and Their Impact on the Interaction"</a> 
+  will be published at the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2024).<br></p>
+  <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NNgbNRxm5V4?si=RQnvyUaNn1z9tOFu" allowfullscreen></iframe>
+  </div><br>
+  '
+
 - date: 09/2024
   headline: "We hosted HFR 2024 in Lugano!"
   summary: 'We organized the 17th International Workshop on Human-Friendly Robotics (HFR 2024) in Lugano.'
