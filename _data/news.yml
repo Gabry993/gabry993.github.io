@@ -1,3 +1,58 @@
+- date: 09/2024
+  headline: "We hosted HFR 2024 in Lugano!"
+  summary: 'We organized the 17th International Workshop on Human-Friendly Robotics (HFR 2024) in Lugano.'
+  content: '<div class="row">
+  <div class="col-2"><p>
+  <a href="images/hfr_logo.png"><img src="images/hfr_logo.png" width="100%" /></a>
+  </p>
+  </div>
+  <div class="col-10"><p>
+  We organized the 17th International Workshop on Human-Friendly Robotics (HFR 2024) in Lugano.
+  It was a nice opportunity to meet and discuss with members of the HRI community.
+  The workshop featured a rich program of 4 keynote speeches, 4 oral sessions with 19 talks, 2 poster sessions, and 3 technical talks from our sponsors.
+  All accepted papers (including two of ours!) have received at least two reviews and will appear in Springer Proceedings of the 17th International Workshop on Human-Friendly Robotics (HFR2024).
+  <br>Check the program on the <a href="https://sites.google.com/view/hfr2024/home">workshop website</a> to see what it was all about.
+  </p>
+  </div>
+  </div>
+  <a href="images/hfr_group.jpeg"><img src="images/hfr_group.jpeg" width="100%"/></a>
+  '
+
+- date: 08/2024
+  headline: 'Publications at HFR 2024'
+  summary: 'We got two papers accepted at HFR 2024.'
+  content: '<p>Our two papers, <a href="https://youtu.be/6PiVOs6P4JA">"Learning Hand State Estimation for a Light Exoskeleton"</a> by G. Abbate, A. Giusti, L. Randazzo and A. Paolillo, 
+  and "Hearing the Robot’s Mind: Sonification for Explicit Feedback in Human-Robot Interaction" by S. Arreghini, A. Paolillo, G. Abbate and A. Giusti have been accepted 
+  at the 17th International Workshop on Human-Friendly Robotics (HFR2024).</p>
+  '
+- date: 05/2024
+  headline: "We were at ICRA 2024 in Yokohama!"
+  summary: 'We joined the 2024 IEEE International Conference on Robotics and Automation (ICRA 2024) which was held in beautiful Yokohama.'
+  content: '<p>We joined the 2024 IEEE International Conference on Robotics and Automation (ICRA 2024) which was held in beautiful Yokohama.
+  It was a great opportunity to present our work, get in touch with other researchers and start new collaborations! We also ate a lot of sushi :D<br>
+  <a href="images/icra2024_crop.jpeg"><img src="images/icra2024_crop.jpeg" width="100%" /></a>
+  </p>
+  '
+
+- date: 04/2024
+  headline: 'Publication at ICRA 2024'
+  summary: 'Our paper <a href="https://ieeexplore.ieee.org/document/10610289">"Predicting the Intention to Interact with a Service Robot: the Role of Gaze Cues"</a> 
+  will be published at ICRA 2024.'
+  content: '<p>Our paper <a href="https://ieeexplore.ieee.org/document/10610289">"Predicting the Intention to Interact with a Service Robot: the Role of Gaze Cues"</a> 
+  will be published at the 2024 IEEE International Conference on Robotics and Automation (ICRA 2024).<br></p>
+  <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5V6efrEtfBI?si=srRksJPn2YSKEEQp" allowfullscreen></iframe>
+  </div><br>
+  '
+
+- date: 03/2024
+  headline: 'Publication at HRI 2024'
+  summary: 'Our paper <a href="https://dl.acm.org/doi/abs/10.1145/3610977.3637470">"A Long-Range Mutual Gaze Detector for HRI"</a> 
+  will be published at HRI 2024.'
+  content: '<p>Our paper <a href="https://dl.acm.org/doi/abs/10.1145/3610977.3637470">"A Long-Range Mutual Gaze Detector for HRI"</a> 
+  will be published at the 2024 ACM/IEEE International Conference on Human-Robot Interaction (HRI 2024).<br></p>
+  '
+
 - date: 12/2023
   headline: "New Article on Scientific Report Journal"
   summary: 'Our article <a href="https://www.nature.com/articles/s41598-023-49571-7">"A mirror therapy system using virtual reality and an actuated exoskeleton for the recovery of hand motor impairments: a study of acceptability, usability, and embodiment"</a> 
