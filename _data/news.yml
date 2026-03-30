@@ -1,3 +1,33 @@
+- date: 03/2026
+  headline: 'Abstract and best presentation award at Precision Health Day 2026!'
+  summary: 'Our abstract presented at the Precision Health Day 2026 - AI Enabled won the Best Oral Presenattion Award.'
+  content: '<div class="row">
+  <div class="col-4"><p>
+  <a href="images/precision.jpeg"><img src="images/precision.jpeg" width="100%" /></a>
+  </p>
+  </div>
+  <div class="col-8"><p>
+  Our abstract, "PATH-zle, an AI-based tool for histopathology Whole Slide Image reconstruction", presented at the Precision Health Day 2026 - AI Enabled in Lugano, won the Best Oral Presentation Award! Check the <a href="papers/abbate2026precision_poster.pdf">poster</a> out.
+  </p>
+  </div>
+  </div>
+  '
+- date: 02/2026
+  headline: 'Publication at ICRA 2026'
+  summary: 'Our paper <a href="https://arxiv.org/abs/2603.15329">"User-Tailored Learning to Forecast Walking Modes for Exosuits"</a> 
+  will be published at ICRA 2026.'
+  content: '<p>Our paper <a href="https://arxiv.org/abs/2603.15329">"User-Tailored Learning to Forecast Walking Modes for Exosuits"</a> 
+  will be published at the 2026 IEEE International Conference on Robotics and Automation (ICRA 2026).<br></p>
+  <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/arcrc17y6m4?si=o3GU2lV9pWs8RKgy" allowfullscreen></iframe>
+  </div><br>
+  '
+- date: 10/2025
+  headline: 'I became a dad :D'
+  summary: 'My daughter Ginevra was born—an incredibly happy and grateful moment for our family.'
+  content: '<p>My lovely wife Valentina gave birth to our daughter, Ginevra.<br>
+  This probably does not belong here, but I am so happy and grateful that I wanted to share it :)</p>'
+
 - date: 10/2024
   headline: 'Publication at IROS 2024'
   summary: 'Our paper <a href="https://arxiv.org/abs/2410.03287">"A Service Robot in the Wild: Analysis of Users Intentions, Robot Behaviors, and Their Impact on the Interaction"</a> 

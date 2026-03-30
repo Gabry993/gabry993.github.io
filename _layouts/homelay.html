@@ -2,24 +2,27 @@
 layout: default
 ---
 
-  <div id="homeid" class="col-sm-6 col-xs-12">
-	{{ content }}
-  </div>
-  <div id="side" class="col-sm-6 col-xs-12" >
-	{% include sidebar.html %}
+<div id="homeid">
+  <div class="sidebar-box" style="float: right; width: 320px; margin: 0 0 20px 20px;">
+    {% include sidebar.html %}
   </div>
 
- <div id="newsid" class="col-sm-12 col-xs-12">
+  {{ content }}
+
+  <div style="clear: both;"></div>
+</div>
+
+
+<div id="newsid" class="col-sm-12 col-xs-12">
   <div class="jumbotron">
-  <h4>News</h4>
+    <h4>News</h4>
 
-  {% for article in site.data.news limit:3 %}
-  <b>{{ article.date }} - {{ article.headline }}</b>
+    {% for article in site.data.news limit:3 %}
+    <b>{{ article.date }} - {{ article.headline }}</b>
     <p>{{ article.summary }}</p>
-  {% endfor %}
-  
-  <h5><a href="{{ site.url }}{{ site.baseurl }}/news.html">... see all News</a></h5>
+    {% endfor %}
+
+    <h5><a href="{{ site.url }}{{ site.baseurl }}/news.html">... see all News</a></h5>
 
   </div>
- </div> 
-
+</div>

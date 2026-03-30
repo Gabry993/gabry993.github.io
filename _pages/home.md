@@ -26,8 +26,11 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 
 ### Hello there!<span style="color:white;font-size: 50%">General Kenobi</span>
 
-I'm Gabriele, currently Researcher and Software Engineer @ IDSIA.
-Here I'm trying to learn as much as possible while working on many different projects. Check my <a href="{{ site.url }}{{ site.baseurl }}/news">news list</a> to see what I've been up to :)
+I'm Gabriele, currently a Researcher and Software Engineer @ IDSIA. Since March 2026, I am also a PhD student in Applied Data Science and Artificial Intelligence @ USI-SUPSI.
+As a researcher, I strive to learn as much as possible while contributing to a variety of projects. As a PhD student, I am working on the TANDEM project, which focuses on improving the diagnosis of nodal marginal zone lymphoma by integrating digital pathology, molecular data, and artificial intelligence. My contribution centers on developing computer vision methods for the analysis of whole-slide histopathological images, combined with multimodal learning approaches that incorporate clinical text data. This work lies at the intersection of computer vision and medical AI, addressing challenges in large-scale image analysis, representation learning, and clinically relevant model design.
 
-I dream of employing my skills to help make someone's life better. In particular, I would like to work either on rehabilitation systems or "accessible" interfaces for physically impaired people: i.e., restoring functionalities of people who have lost some; or making accessible stuff that is seldomly designed with accessibility in mind (e.g., board/video games, software, hardware of any kind, places, etc.).
-Maybe, one day, my brother and I will manage to play video games together again, as we did in our childhood :D
+Check my <a href="{{ site.url }}{{ site.baseurl }}/news">news list</a> to see what I've been up to :)
+
+I aspire to use my skills to make a meaningful impact on people’s lives. Professionally, I believe my PhD project is a step in that direction.
+At the same time, in my free time I enjoy working on “accessible” interfaces for people with physical impairments—restoring lost functionalities or making systems more inclusive where accessibility is often overlooked (e.g., board and video games, software, hardware, and everyday environments).
+Maybe one day, my brother and I will manage to play video games together again, just like we did in our childhood. We already have a promising work in progress—hopefully I’ll have some news to share soon! :D

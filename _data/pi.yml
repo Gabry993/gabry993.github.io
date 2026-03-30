@@ -5,18 +5,20 @@
   github: https://github.com/Gabry993/
   researchgate: https://www.researchgate.net/profile/Gabriele-Abbate
   scholar: https://scholar.google.com/citations?user=nEHmVy0AAAAJ&hl=en
-  # cv: cv/cv.pdf
+  cv: cv/cv.pdf
   linkedin: https://www.linkedin.com/in/gabriele-abbate-173b8522a/
   # Change the number below to the number of "educations" you have (up to 6)
-  number_educ: 2
-  education1: "(2018) M.S. Informatics, Double Degree Program USI-UNIMiB (Università della Svizzera italiana - Università degli Studi di Milano-Bicocca)"
-  education2: "(2016) B.S. Informatics, UNIMiB (Università degli Studi di Milano-Bicocca)"
+  number_educ: 3
+  education1: "(2026 - Ongoing) PhD in Applied Data Science and Artificial Intelligence at USI-SUPSI"
+  education2: "(2018) M.S. Informatics, Double Degree Program USI-UNIMiB (Università della Svizzera italiana - Università degli Studi di Milano-Bicocca)"
+  education3: "(2016) B.S. Informatics, UNIMiB (Università degli Studi di Milano-Bicocca)"
   # education3: 
   # education4: 
   # education5: 
   # education6: 
-  education1short: (2018) M.S. Informatics, USI-UNIMiB
-  education2short: (2016) B.S. Informatics, UNIMiB
+  education1short: (2026 - Ongoing) PhD at USI-SUPSI 
+  education2short: (2018) M.S. Informatics, USI-UNIMiB
+  education3short: (2016) B.S. Informatics, UNIMiB
   # education3short: 
   # education4short: 
   # education5short: 
