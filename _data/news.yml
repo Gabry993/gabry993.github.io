@@ -1,13 +1,13 @@
 - date: 03/2026
   headline: 'Abstract and best presentation award at Precision Health Day 2026!'
-  summary: 'Our abstract presented at the Precision Health Day 2026 - AI Enabled won the Best Oral Presenattion Award.'
+  summary: 'Our abstract presented at the "Precision Health Day 2026 - AI Enabled" won the Best Oral Presentation Award.'
   content: '<div class="row">
   <div class="col-4"><p>
   <a href="images/precision.jpeg"><img src="images/precision.jpeg" width="100%" /></a>
   </p>
   </div>
   <div class="col-8"><p>
-  Our abstract, "PATH-zle, an AI-based tool for histopathology Whole Slide Image reconstruction", presented at the Precision Health Day 2026 - AI Enabled in Lugano, won the Best Oral Presentation Award! Check the <a href="papers/abbate2026precision_poster.pdf">poster</a> out.
+  Our abstract, "PATH-zle, an AI-based tool for histopathology Whole Slide Image reconstruction", presented at the "Precision Health Day 2026 - AI Enabled" in Lugano, won the Best Oral Presentation Award! Check the <a href="papers/abbate2026precision_poster.pdf">poster</a> out.
   </p>
   </div>
   </div>
@@ -25,9 +25,19 @@
 - date: 10/2025
   headline: 'I became a dad :D'
   summary: 'My daughter Ginevra was born—an incredibly happy and grateful moment for our family.'
-  content: '<p>My lovely wife Valentina gave birth to our daughter, Ginevra.<br>
+  content: '<p>My beloved wife Valentina gave birth to our daughter, Ginevra.<br>
   This probably does not belong here, but I am so happy and grateful that I wanted to share it :)</p>'
-
+  content: '<div class="row">
+  <div class="col-8"><p>My beloved wife Valentina gave birth to our daughter, Ginevra.<br>
+  This probably does not belong here, but I am so happy and grateful that I wanted to share it :)
+  </p>
+  </div>
+  <div class="col-4"><p>
+  <a href="images/ginny.jpg"><img src="images/ginny_square.jpg" width="100%" /></a>
+  </p>
+  </div>
+  </div>
+  '
 - date: 10/2024
   headline: 'Publication at IROS 2024'
   summary: 'Our paper <a href="https://arxiv.org/abs/2410.03287">"A Service Robot in the Wild: Analysis of Users Intentions, Robot Behaviors, and Their Impact on the Interaction"</a> 
