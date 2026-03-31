@@ -18,10 +18,11 @@
   <link rel="preconnect" href="https://f.vimeocdn.com">
   <style>
     /* Normalize icon alignment in the about page social links */
-    .fa,
-    .ai {
+    .icon-link .fa,
+    .icon-link .ai {
       vertical-align: middle;
       line-height: 1;
+      color: #fff;
     }
 
     /* Fine-tune academicons specifically — shift up to match Fork Awesome */
@@ -29,6 +30,27 @@
       position: relative;
       top: -1px;
       /* adjust between -2px and -4px to taste */
+    }
+
+    .icon-link {
+      --icon-size: 1.5em;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.5em;
+      height: 1.5em;
+      font-size: var(--icon-size);
+      /* replaces fa-3x / ai-3x */
+      border-radius: 12px;
+      /* your chosen rounding — same for all */
+      background-color: currentColor;
+      color: #fff;
+      text-decoration: none;
+      vertical-align: middle;
+    }
+
+    .icon-link--sm {
+      --icon-size: 1.3em;
     }
   </style>
   {% if jekyll.environment == 'production' %}
