@@ -52,6 +52,38 @@
     .icon-link--sm {
       --icon-size: 1.3em;
     }
+
+    .sidebar-education {
+      margin-top: 8px;
+      font-size: 0.85em;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    .sidebar-education div {
+      padding: 2px 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+      /* subtle separator between entries */
+    }
+
+    .sidebar-education div:last-child {
+      border-bottom: none;
+    }
+
+    .about-education {
+      margin-top: 12px;
+      font-size: 0.95em;
+      line-height: 1.6;
+    }
+
+    .about-education p {
+      padding: 4px 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    }
+
+    .about-education p:last-child {
+      border-bottom: none;
+    }
   </style>
   {% if jekyll.environment == 'production' %}
   {% include analytics.html %}

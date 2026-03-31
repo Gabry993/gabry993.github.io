@@ -23,7 +23,7 @@ permalink: /about/
   {% if member.github %} <a href="{{ member.github }}" target="_blank" class="text-primary icon-link"><i class="fa fa-github"></i></a> {% endif %}
   {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank" class="text-primary icon-link"><i class="ai ai-researchgate"></i></a> {% endif %}
 
-  <ul style="overflow: hidden">
+  <div class="about-education">
   {% if member.number_educ == 1 %}
   <li> {{ member.education1 | replace: "-","&#8211;"}} </li>
   {% endif %}
@@ -32,9 +32,9 @@ permalink: /about/
   <li> {{ member.education2 | replace: "-","&#8211;"}} </li>
   {% endif %}
   {% if member.number_educ == 3 %}
-  <li> {{ member.education1 | replace: "-","&#8211;"}} </li>
-  <li> {{ member.education2 | replace: "-","&#8211;"}} </li>
-  <li> {{ member.education3 | replace: "-","&#8211;"}} </li>
+  <p> {{ member.education1 }} </p>
+  <p> {{ member.education2 }} </p>
+  <p> {{ member.education3 }} </p>
   {% endif %}
   {% if member.number_educ == 4 %}
   <li> {{ member.education1 | replace: "-","&#8211;"}} </li>
@@ -57,7 +57,7 @@ permalink: /about/
   <li> {{ member.education5 | replace: "-","&#8211;"}} </li>
   <li> {{ member.education6 | replace: "-","&#8211;"}} </li>
   {% endif %}
-  </ul>
+  </div>
 </div>
 </div>
 </div>

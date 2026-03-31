@@ -3,76 +3,34 @@
   <div class="jumbotron">
     <center>
       <a href="{{site.url}}{{site.baseurl}}/about"><img src="{{site.url}}{{site.baseurl}}/images/{{ member.photo }}"
-          width="60%" style="block:inline; margin-left:auto; margin-right:auto; margin-bottom:5px;" /></a>
+          width="60%" style="display:block; margin-left:auto; margin-right:auto; margin-bottom:5px;" /></a>
       <h4>{{ member.name }}</h4>
       <div style="margin-bottom:5px">
         {% if member.email %}<a href="#" target="_blank" class="text-primary icon-link icon-link--sm" data-gen-agar><i
             class="fa fa-envelope"></i></a> {% endif %}
-        {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"
+        {% if member.cv %}<a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"
           class="text-primary icon-link icon-link--sm"><i class="ai ai-cv"></i></a> {% endif %}
-        {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"
+        {% if member.linkedin %}<a href="{{ member.linkedin }}" target="_blank"
           class="text-primary icon-link icon-link--sm"><i class="fa fa-linkedin"></i></a> {% endif %}
-        {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"
+        {% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"
           class="text-primary icon-link icon-link--sm"><i class="ai ai-google-scholar"></i></a> {% endif %}
-        {% if member.github %} <a href="{{ member.github }}" target="_blank"
+        {% if member.github %}<a href="{{ member.github }}" target="_blank"
           class="text-primary icon-link icon-link--sm"><i class="fa fa-github"></i></a> {% endif %}
-        {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"
+        {% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"
           class="text-primary icon-link icon-link--sm"><i class="ai ai-researchgate"></i></a> {% endif %}
       </div>
     </center>
 
-    <ul style="overflow: hidden">
-      {% if member.number_educ == 1 %}
-      <li> {{ member.education1short | replace: "-","&#8211;"}} </li>
+    <div class="sidebar-education">
+      {% assign educ_fields =
+      "education1short,education2short,education3short,education4short,education5short,education6short" | split: "," %}
+      {% for field in educ_fields limit: member.number_educ %}
+      {% assign val = member[field] %}
+      {% if val %}
+      <div>{{ val | replace: "-","&#8211;" }}</div>
       {% endif %}
-
-      {% if member.number_educ == 2 %}
-      <li> {{ member.education1short | replace: "-","&#8211;"}} </li>
-      <li> {{ member.education2short | replace: "-","&#8211;"}} </li>
-      {% endif %}
-
-      {% if member.number_educ == 3 %}
-      <li> {{ member.education1short | replace: "-","&#8211;"}} </li>
-      <li> {{ member.education2short | replace: "-","&#8211;"}} </li>
-      <li> {{ member.education3short }} </li>
-      {% endif %}
-
-      {% if member.number_educ == 4 %}
-      <li> {{ member.education1short | replace: "-","&#8211;"}} </li>
-      <li> {{ member.education2short | replace: "-","&#8211;"}} </li>
-      <li> {{ member.education3short | replace: "-","&#8211;"}} </li>
-      <li> {{ member.education4short | replace: "-","&#8211;"}} </li>
-      {% endif %}
-
-      {% if member.number_educ == 5 %}
-      <li> {{ member.education1short | replace: "-","&#8211;"}} </li>
-      <li> {{ member.education2short | replace: "-","&#8211;"}} </li>
-      <li> {{ member.education3short | replace: "-","&#8211;"}} </li>
-      <li> {{ member.education4short | replace: "-","&#8211;"}} </li>
-      <li> {{ member.education5short | replace: "-","&#8211;"}} </li>
-      {% endif %}
-
-      {% if member.number_educ == 6 %}
-      <li> {{ member.education1short | replace: "-","&#8211;"}} </li>
-      <li> {{ member.education2short | replace: "-","&#8211;"}} </li>
-      <li> {{ member.education3short | replace: "-","&#8211;"}} </li>
-      <li> {{ member.education4short | replace: "-","&#8211;"}} </li>
-      <!-- <li> {{ member.education5short | replace: "-","&#8211;"}} </li> -->
-      <li> {{ member.education6short | replace: "-","&#8211;"}} </li>
-      {% endif %}
-    </ul>
+      {% endfor %}
+    </div>
   </div>
   {% endfor %}
 </div>
-
-<!-- <div class="jumbotron">
-  <h4>News</h4>
-
-  {% for article in site.data.news limit:3 %}
-  <b>{{ article.date }}</b>
-    <p>{{ article.headline }}</p>
-  {% endfor %}
-  
-  <h5><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h5>
-
-</div> -->
